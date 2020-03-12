@@ -10,8 +10,10 @@ $(function(){
     let array = _.words(phrase);
 
     for ( let word of array ){
-        let element = $('<li>' + word + '<li>');
+        let element = $('<li>' + word + '</li>');
 
         $('#list').append(element);
     }
 });
+
+/* command watchify index->bundleindex : watchify index.js -o bundleindex.js */
