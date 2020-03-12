@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/fgerdolle/nodeJS/issues"
   },
-  "homepage": "https://github.com/fgerdolle/nodeJS#readme"
+  "homepage": "https://github.com/fgerdolle/nodeJS#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "uniq": "^1.0.1"
+  }
 }
